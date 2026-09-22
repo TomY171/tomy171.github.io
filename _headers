@@ -1,0 +1,10 @@
+# כותרות שנטליפיי מוסיפה לקבצים מסוימים.
+
+/manifest.webmanifest
+  Content-Type: application/manifest+json; charset=utf-8
+
+# ה-Service Worker לא נשמר במטמון של הדפדפן.
+# בלי זה, גרסה ישנה שלו יכולה להישאר תקועה אצלך ולהגיש קוד ישן
+# גם אחרי שהעלית עדכון — ואין דבר מבלבל מזה.
+/sw.js
+  Cache-Control: public, max-age=0, must-revalidate
