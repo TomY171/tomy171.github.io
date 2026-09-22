@@ -1,4 +1,4 @@
-import{r,j as e,L as $,E as B,t as _,a as g,b as q,s as F,c as f,l as N,d as S,w as z,e as Q,f as G,g as H,h as P,i as J,k as U,m as A,n as w,o as E,p as L,q as I,u as C,v as V,x as X,D as Z,y as ee,z as M,A as se,B as T,C as ne,F as te,G as ae,H as le,I as ie,J as de,K as oe,W as ce}from"./index-CymPZFL3.js";const R=`-- =====================================================================
+import{r,j as e,L as $,E as B,t as _,a as g,b as q,s as F,c as f,l as N,d as S,w as z,e as Q,f as G,g as H,h as P,i as J,k as U,m as A,n as w,o as E,p as L,q as I,u as C,v as V,x as X,D as Z,y as ee,z as M,A as se,B as T,C as ne,F as te,G as ae,H as le,I as ie,J as de,K as oe,W as ce}from"./index-243zq3aQ.js";const R=`-- =====================================================================
 --  מעקב עקביות — משימות וציונים יומיים
 --
 --  איך מריצים: Supabase ← SQL Editor ← New query ← להדביק ← Run.
