@@ -102,6 +102,12 @@ async function commitBuild(request, response) {
     }
   }
 
+  // בנייה חדשה: נותנים לדף שתי שניות לבקש בעצמו את ה-JS וה-CSS שלו
+  // (הבקשות שלו נשמרות במטמון בדרך הרגילה). בלי ההמתנה, הקבצים —
+  // חצי מגה-בייט — הורדו פעמיים במקביל, בדיוק ברגע הפתיחה הראשונה
+  // אחרי פריסה, ברשת סלולרית.
+  await new Promise(resolve => setTimeout(resolve, 2000))
+
   // הקבצים שהדף טוען ישירות — חובה. חסר אחד? הדף הישן נשאר.
   for (const path of direct) {
     if (await cache.match(path)) continue
