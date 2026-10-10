@@ -14,12 +14,18 @@
   <link rel="icon" href="/icon-32.png" sizes="32x32">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
+  <!-- גופנים: נטענים ברקע (media=print ואז all), כך שהמסך מצויר מיד
+       בגופן של המערכת ומתחלף כשהם מגיעים. בלי רשת — פשוט לא מגיעים. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&family=Frank+Ruhl+Libre:wght@500;700&display=swap" media="print" onload="this.media='all'">
+
   <!-- אייפון מתעלם מה-manifest וצריך את אלה בנפרד -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="מאגר הידע">
-  <script type="module" crossorigin src="/assets/index-MWPmMuQC.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-Dk7BqHh3.css">
+  <script type="module" crossorigin src="/assets/index-BXnnyC18.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-Biw18k2z.css">
 </head>
 <body>
   <!-- React ממלא את ה-div הזה. זה כל מה שיש בקובץ ה-HTML. -->
