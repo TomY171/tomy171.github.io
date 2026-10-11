@@ -9,7 +9,8 @@
   <title>מאגר הידע</title>
 
   <!-- צבע פס הסטטוס בטלפון, כדי שהמסך ייראה רציף -->
-  <meta name="theme-color" content="#10262E">
+  <meta name="theme-color" content="#F4EFE6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#141311" media="(prefers-color-scheme: dark)">
 
   <!-- הקובץ שמאפשר "הוסף למסך הבית" -->
   <link rel="manifest" href="/manifest.webmanifest">
@@ -21,14 +22,16 @@
        בגופן של המערכת ומתחלף כשהם מגיעים. בלי רשת — פשוט לא מגיעים. -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&family=Frank+Ruhl+Libre:wght@500;700&display=swap" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@400;500;600;700&family=Frank+Ruhl+Libre:wght@500;700&display=swap" media="print" onload="this.media='all'">
 
   <!-- אייפון מתעלם מה-manifest וצריך את אלה בנפרד -->
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <!-- default: פס הסטטוס עוקב אחרי מצב בהיר/כהה של האייפון. black-translucent
+       צבע את השעון בלבן — בלתי נראה על הרקע הבהיר. -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="מאגר הידע">
-  <script type="module" crossorigin src="/assets/index-DjzlGDoR.js"></script>
-  <link rel="stylesheet" crossorigin href="/assets/index-C5QIuQIM.css">
+  <script type="module" crossorigin src="/assets/index-B0hm-Urx.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-DRqo9mUA.css">
 </head>
 <body>
   <!-- React ממלא את ה-div הזה. זה כל מה שיש בקובץ ה-HTML. -->
